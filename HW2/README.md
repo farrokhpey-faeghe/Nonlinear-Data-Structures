@@ -1,20 +1,34 @@
-# EECS 2510 - Non-Linear Data Structures
+# Homework 2
 
-This repository contains supplemental materials for EECS 2510.
+This folder contains supplemental guidance and learning materials for Homework 2.
 
-The materials are intended to help students understand the concepts and structure of the homework assignments.
+## Topics Covered
 
-## Contents
+Homework 2 focuses on the following topics:
 
-- Homework 1
-- Homework 2
-- Homework 3
-- ...
-- Additional Resources
+- Binary Search Trees
+- Searching in a Binary Search Tree
+- Recursive TREE-MINIMUM and TREE-MAXIMUM
+- C++ `vector`
+- C++ `pair`
+- Character frequency counting
 
-## Important
+## Homework Structure
 
-These materials are intended as guidance only.
-Complete homework solutions are not provided.
+### Problem 1
+Binary Search Tree search sequences
 
-Students are expected to write and understand their own implementations.
+Students should determine which search sequences are possible or impossible when searching for a given value in a Binary Search Tree.
+
+### Problem 2
+Recursive TREE-MINIMUM and TREE-MAXIMUM
+
+Students should write recursive pseudocode for finding the minimum and maximum elements in a Binary Search Tree.
+
+### Problem 3
+CharacterFrequencies Class
+
+Students will implement a C++ class that keeps track of cumulative character frequencies using:
+
+```cpp
+vector<pair<char, int>>
